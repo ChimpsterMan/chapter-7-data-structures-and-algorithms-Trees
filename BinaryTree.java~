@@ -1,0 +1,33 @@
+public class BinaryTree
+{
+  
+  public Boolean findNode(String key, TreeNodeWrapper parent, TreeNodeWrapper child){
+    
+  }
+  
+  public class TreeNode(){
+    private Listing node;
+    private TreeNode rc;
+    private TreeNode lc;
+    
+    public TreeNode ()
+    {
+      
+    }
+  }
+  public class TreeNodeWrapper(){
+    TreeNode ref = null;
+    
+    public TreeNodeWrapper(){
+      
+    }
+    
+    public TreeNode get(){
+      return ref;
+    }
+    
+    public void set(TreeNode newNode){
+      ref = newNode;
+    }
+  }
+}
